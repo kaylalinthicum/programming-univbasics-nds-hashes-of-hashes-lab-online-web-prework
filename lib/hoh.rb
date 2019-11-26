@@ -35,8 +35,10 @@ def naming_system
     :Phylum => {
       :label = "Phylum"
       :sub_catgory => {
-        :Order
-          :Family => {  
+          :Order => {
+            :label => "Order"
+            :sub_category => {
+              :Family => {  
             :Genus => {
               :Species => {}
             }
