@@ -31,6 +31,14 @@
 # }
 
 def naming_system
+  kingdom = {
+    :Phylum => {},
+    :Class => {},
+    :Order => {}, 
+    :Family => {}, 
+    :Genus => {}, 
+    :Species => {}
+  }
   # Remember:
   #  Kingdom
   #  Phylum
@@ -41,5 +49,5 @@ def naming_system
   #  Species
   # So, if we have the "Kingdom" node we should be able to "tunnel" into the
   # HoH all the way to Species!
-
+naming_system
 end
