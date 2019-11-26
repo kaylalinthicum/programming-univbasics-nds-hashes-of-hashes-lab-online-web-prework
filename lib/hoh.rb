@@ -32,7 +32,6 @@
 
 def naming_system
   kingdom = {
-    :Phylum => {
       :label => "Phylum" 
       :sub_category => {
           :Order => {
