@@ -34,13 +34,12 @@ def naming_system
   kingdom = {
       :label => "Phylum" 
       :sub_category => {
-          :Order => {
-            :label => "Order" 
-            :sub_category => {
-              :Family => {  
-                :label => "Family"
-                :sub_category => {
-                  :Genus => {
+          :label => "Order"
+          :sub_category => {
+              :label => "Family"
+              :sub_category => {
+                  :label => "Genus"
+                  :sub_category
                     :label => "Genus"
                     :sub_category => {
                       :Species => {
